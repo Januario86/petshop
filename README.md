@@ -1,4 +1,4 @@
-# Sistema de Controle de Atendimentos para Petshop 🐶🐱  
+# Sistema de Controle de Atendimentos para Petshop
 
 Este é um sistema RESTful desenvolvido com **Spring Boot** para gerenciar atendimentos, cadastro de pets e clientes. O sistema possui autenticação JWT e autorização baseada em papéis (**Admin** e **Cliente**).
 
