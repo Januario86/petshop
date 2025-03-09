@@ -34,6 +34,12 @@ spring.datasource.hikari.maximum-pool-size=10
 spring.jpa.show-sql=true
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 ```
+Obs: A estrutura inicial do banco de dados está no caminho src/main/resources/init.sql
+
+![image](https://github.com/user-attachments/assets/2576a66f-08c8-44f7-ba34-23845a0b4317)
+
+
+
 ### 2️⃣ Clonar o Repositório
 git clone [https://github.com/SEU-USUARIO/SEU-PROJETO.git](https://github.com/Januario86/petshop.git)
 
