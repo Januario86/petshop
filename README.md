@@ -37,10 +37,10 @@ spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 ### 2️⃣ Clonar o Repositório
 git clone [https://github.com/SEU-USUARIO/SEU-PROJETO.git](https://github.com/Januario86/petshop.git)
 
-###3️⃣ Executar a Aplicação
+### 3️⃣ Executar a Aplicação
 docker-compose up -d
 
-###4️⃣ Acessar a API
+### 4️⃣ Acessar a API
 Após iniciar o projeto, a API estará disponível em http://localhost:8080.
 
 Para visualizar a documentação da API:
