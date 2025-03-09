@@ -8,7 +8,7 @@ Este é um sistema RESTful desenvolvido com **Spring Boot** para gerenciar atend
 - **Spring Boot**
 - **Spring Data JPA**
 - **Spring Security (JWT)**
-- **Banco de Dados Relacional (MySQL ou PostgreSQL)**
+- **Banco de Dados Relacional (PostgreSQL)**
 - **Docker (Opcional)**
 - **Swagger para documentação da API**
 
