@@ -35,8 +35,7 @@ spring.jpa.show-sql=true
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
 ###2️⃣ Clonar o Repositório
-git clone https://github.com/SEU-USUARIO/SEU-PROJETO.git
-cd SEU-PROJETO
+git clone [https://github.com/SEU-USUARIO/SEU-PROJETO.git](https://github.com/Januario86/petshop.git)
 
 ###3️⃣ Executar a Aplicação
 docker-compose up -d
