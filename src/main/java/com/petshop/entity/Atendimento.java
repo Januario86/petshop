@@ -8,8 +8,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name= "atendimento" )
 public class Atendimento {
 
 	@Id
@@ -18,21 +20,22 @@ public class Atendimento {
 
 	@ManyToOne
 	@JoinColumn(name = "pet_id", nullable = false)
-	private Pets pets;
+	private Pet pets;
 
 	private String descricaoAtendimento;
 	private Double valor;
 	private LocalDate data;
+	
 	public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public Pets getPets() {
+	public Pet getPets() {
 		return pets;
 	}
-	public void setPets(Pets pets) {
+	public void setPets(Pet pets) {
 		this.pets = pets;
 	}
 	public String getDescricaoAtendimento() {
